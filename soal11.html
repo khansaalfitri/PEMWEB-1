@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Soal 11</title>
+
+    <style>
+      .utama {
+        width: 680px;
+        height: 450px;
+        margin: 50px auto;
+        border-collapse: collapse;
+      }
+
+      .utama td {
+        width: 33.33%;
+        height: 50%;
+        border: 2px solid black;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 28px;
+      }
+
+      .wadah-dalam {
+        padding: 2px;
+      }
+
+      .dalam {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+
+      .dalam td {
+        width: 50%;
+        height: 50%;
+        border: 1px solid black;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 28px;
+      }
+
+      .abu {
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table class="utama">
+      <tbody>
+        <!-- BARIS PERTAMA -->
+        <tr>
+          <!-- A -->
+          <td>A</td>
+
+          <!-- B, C, D, E -->
+          <td colspan="2" class="wadah-dalam">
+            <table class="dalam">
+              <tr>
+                <td class="abu">B</td>
+                <td>C</td>
+              </tr>
+
+              <tr>
+                <td>D</td>
+                <td class="abu">E</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- BARIS KEDUA -->
+        <tr>
+          <!-- Kotak kosong -->
+          <td></td>
+
+          <!-- F -->
+          <td>F</td>
+
+          <!-- G -->
+          <td>G</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
